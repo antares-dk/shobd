@@ -31,7 +31,7 @@ Le coût de ce Dashboard ODB-II est aux alentours de 30 €
    
 ## Optionnel :
 
-- Prise femelle OBD-II (2€)
+- [Prise femelle OBD-II (2€)](https://fr.aliexpress.com/w/wholesale-cable-extension-OBD.html?spm=a2g0o.productlist.search.0)
 
 ## Configuratuin SimHub
 Pensez à activer le partage de données entre votre jeu et SimHub.

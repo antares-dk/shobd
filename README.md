@@ -2,6 +2,7 @@
 SHOBD (SimHub OBD), mon premier projet à base d'Arduino.
 
 ![Project Cars 2](img/pj2.PNG)
+
 _Exemple d'utilisation sur Project Cars 2_
 ## Objectif :
 Je souhaitais me fabriquer un dashboard pour le poser par dessus le boitier du volant Logitech G27, mais par manque de temps et de motivation, sélection des éléments, fabrication d'un boitier, etc... Je suis finalement tombé sur un Hud OBD-II vendu sur un site de commerce en ligne bien connu. [Aliexpress : HUD Display](https://fr.aliexpress.com/w/wholesale-hud-obd2-display.html?spm=a2g0o.home.auto_suggest.1.2eeb7065Oqmlwb).

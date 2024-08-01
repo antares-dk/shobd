@@ -10,13 +10,15 @@ C'est de cette manière que j'ai réalisé un hud rapidement pour les jeux de co
 Ce qui me permet déjà de profiter d'un Hud dans mes Simu et de réfléchir un peu plus sur le prochain dashboard. Puis le HUD finira dans la voiture de Madame quand j'aurais mon Dashboard DIY.
 
 Le coût de ce Dashboard ODB-II est aux alentours de 30 €
+
 ### Avantages
    - Plusieurs thèmes et pages déjà toutes faites
    - Un boitier bien fini.
    - Reste compatible avec une vraie voiture
+
 ### Inconvénients
-   - Certaines variables OBD-II n'existe pas dans le jeu.
-   - Certaones variables du jeux n'existe pas dans le HUD ODBII.
+   - Certaines variables OBD-II n'existe pas dans le jeu, l'animmation du Hud sera donc impossible ou simuler la valeur.
+   - Certaones variables du jeux n'existe pas dans le HUD ODBII _(pas d'affichage de la vitesse enclenchée par exemple)_.
    - Impossible de créer de nouvelles pages dashboard.
      
 ## Pré-requis :

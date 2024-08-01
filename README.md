@@ -3,8 +3,9 @@ Sim Hub OBD-II communication, mon premier projet à base d'Arduino.
 
 ## Objectif :
 Je souhaitais me fabriquer un dashboard pour le poser par dessus le boitier du volant Logitech G27, mais par manque de temps et de motivation, sélection des éléments, fabrication d'un boitier, etc... Je suis finalement tombé sur un Hud OBD-II vendu sur un site de commerce en ligne bien connu. [Aliexpress : HUD Display](https://fr.aliexpress.com/w/wholesale-hud-obd2-display.html?spm=a2g0o.home.auto_suggest.1.2eeb7065Oqmlwb).
-La solution simple rapide, plutôt facile à développé, le boitier déjà fait...
-C'est de cette manière que j'ai réalisé un hud rapidement pour les jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](#resources-externes).
+
+La solution simple rapide, plutôt facile à développer, le boitier est déjà fait, les pages du dashboard aussi...
+C'est de cette manière que j'ai réalisé un hud rapidement pour les jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](#resources-externes). Ce qui me permet déjà de profiter d'un Hud dans mes Simu et de réfléchir un peu plus sur le prochain dashboard. Puis le HUD finira dans la voiture de Madame quand j'aurais mon Dashboard DIY.
 
 ## Pré-requis :
 

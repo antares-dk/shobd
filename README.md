@@ -71,10 +71,32 @@ L'Arduino surveille l'arrivée de nouvelles données sur le port USB, lorsqu'une
 
 exemple d'un message reçu par Sim Hub : <0=55;1=1075;>
 
+dans le fichier "Serie.cpp"
 l'index 0 de la table d'échange va donc recevoir la valeur 55.
 l'index 1 recevra lui la valeur 1075.
 
+on transforme ensuite la table d'échange dans le fichier "ODB-II"  
+on initialise les variables ODB-II avec les valeurs de la table d'échange
 
+``
+ int vehicle_Speed = tab_Values[0];
+``
+
+``
+ int engine_Speed = tab_Values[1];
+``
+
+puis on créé le message ODB-II
+
+``
+byte vehicle_Speed_Msg[8] = {3, 0x41, 0x0D, (byte)(vehicle_Speed)}; 
+``
+
+on envoi ensuite le message via le CAN-Bus
+
+``
+OBD2_CAN.sendMsgBuf(OBD_ID, 0, 8, vehicle_Speed_Msg);                                     // 0xOD
+``
 ## Câblage
 >[!CAUTION]
 >Il est nécessaire de relier la masse de votre alimentation 12Vdc avec l'une des masse de l'Arduino.

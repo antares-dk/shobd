@@ -33,6 +33,8 @@ Le coût de ce Dashboard ODB-II est aux alentours de 30 €
 
 - [Prise femelle OBD-II (2€)](https://fr.aliexpress.com/w/wholesale-cable-extension-OBD.html?spm=a2g0o.productlist.search.0)
 
+![Prise ODBII](img/ODBII.PNG)
+
 J'ai préféré acheter une prise ODB-2 car d'une part le HUD est facilement déconnectable pour l'installer dans une vraie voiture, d'autre part ce projet pourrait finir par faire un simulateur ODB-II pour tester des outils de diagnostics ou autre équipement ODB-2.
 En y ajoutant des sélecteurs, des potentiomètres... Bref les possibilités sont multiples, ce projet peut dérriver à la guise de chacuns.
 

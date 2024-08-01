@@ -45,11 +45,15 @@ Pensez à activer le partage de données entre votre jeu et SimHub.
    * Configurer le port com de l'arduino ex : COM4
    * Ajouter des messages selon le format suivant :
          '<index_tableau='+ round(parametre_jeu,0)+';>'
+
+>Vous remarquerez un forçage des valeurs en valeur entière, on est pas chez la naza nul besoin d'une precission flottante...
      
-Configurer le taux de raffraichissement en général je le place sur 'changes_only', sauf pour les rpm qui sont paramétrés à 60 Hz.
+Configurer le taux de raffraichissement en général sur 'changes_only', sauf pour les rpm qui sont paramétrés à 60 Hz.
 
 Exemple de message pour l'envoi de la vitesse vers le HUD : '<0='+round([SpeedKmh],0)+';>'
+
 ![Messages Sim Hub](img/simhub_messages.PNG)
+
 ## Codage
 Le code de l'application est divisé en plusieurs parties afin de séparer clairement les fonctionnalités afin de faciliter les mises à jours et le debogage de l'application. Il sera également plus facile d'y ajouter de nouvelles fonctionnalités. Les fichiers se présentent comme suit :
 

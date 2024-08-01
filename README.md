@@ -1,5 +1,5 @@
 # shobd
-SimHub OBDII communication
+Sim Hub OBDII communication
 
 ## Objectif :
 Réaliser un hud rapidement pour vos jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II).
@@ -29,11 +29,15 @@ Configurer le taux de raffraichissement en général je le place sur 'changes_on
 Exemple de message pour l'envoi de la vitesse vers le HUD : '<0='+round([SpeedKmh],0)+';>'
 
 ## Codage
-Le code de l'application est divisé en plusieurs parties afin de séparé clairement les fonctionnalités afin de faciliter les mises à jours et le debogage de l'application. Il sera également plus facile d'y ajouter de nouvelles fonctionnalités. Les fichiers se présentent comme suit :
+Le code de l'application est divisé en plusieurs parties afin de séparer clairement les fonctionnalités afin de faciliter les mises à jours et le debogage de l'application. Il sera également plus facile d'y ajouter de nouvelles fonctionnalités. Les fichiers se présentent comme suit :
 
 * shobd.ino : Programme principal où sont émis les appels des différentes fonctions.
 * serie.cpp (et son fichier d'entête) : Gestion du port série USB et de l'extraction des valeurs renvoyées par Sim Hub
 * obd2.cpp (et son fichier d'entête) : Gestion du CAN Bus et envoi des données vers le HUD au format OBD-II.
 
 ## Câblage
+>[!IMPORTANT]
+>Il est nécessaire de relier la masse de votre alimentation 12Vdc avec l'une des masse de l'Arduino.
 
+## Resources externes
+- [SimHub](https://www.simhubdash.com/)

@@ -2,7 +2,7 @@
 Sim Hub OBD-II communication, mon premier projet à base d'Arduino.
 
 ## Objectif :
-Réaliser un hud rapidement pour les jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II).
+Réaliser un hud rapidement pour les jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](#resources-externes).
 
 ## Pré-requis :
 
@@ -10,7 +10,7 @@ Réaliser un hud rapidement pour les jeux de course automobile, en établissant 
 - Arduino Uno
 - Bouclier CAN Bus
 - Alimentation 12 Vdc.
-- <HUD Dashboard ODBII.
+- HUD Dashboard ODB-II.
    
 ## Optionnel :
 

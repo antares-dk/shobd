@@ -1,5 +1,5 @@
 # shobd
-Sim Hub OBDII communication
+Sim Hub OBD-II communication, mon premier projet à base d'Arduino.
 
 ## Objectif :
 Réaliser un hud rapidement pour vos jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II).
@@ -34,6 +34,17 @@ Le code de l'application est divisé en plusieurs parties afin de séparer clair
 * shobd.ino : Programme principal où sont émis les appels des différentes fonctions.
 * serie.cpp (et son fichier d'entête) : Gestion du port série USB et de l'extraction des valeurs renvoyées par Sim Hub
 * obd2.cpp (et son fichier d'entête) : Gestion du CAN Bus et envoi des données vers le HUD au format OBD-II.
+
+Comme c'est la première fois que je code, j'attire votre attention sur mon manque d'expérience et fait appel à votre indulgence. Si vous avez des remarques ou suggestion n'hésitez pas à mes les transmettre.
+
+### Explication rapide
+L'Arduino surveille l'arrivée de nouvelles données sur le port USB, lorsqu'une trame composée de deux chevrons un d'ouverture '<' et l'autre de fermeture '>' la trame est alors analysée afin d'en extraire les valeurs pour les stocker dans une table d'echange. Cette table d'echange est envoyée ensuite sous forme de trame ODB II via le CAN Bus.
+
+exemple d'un message reçu par Sim Hub : <0=55;1=1075;>
+
+l'index 0 de la table d'échange va donc recevoir la valeur 55.
+l'index 1 recevra lui la valeur 1075.
+
 
 ## Câblage
 >[!CAUTION]

@@ -64,3 +64,4 @@ l'index 1 recevra lui la valeur 1075.
 - [SimHub](https://www.simhubdash.com/)
 - [Wikipédia : OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II)
 - [Wikipédia : OBD II Pid](https://en.wikipedia.org/wiki/OBD-II_PIDs)
+- [Github : MCP2515](https://github.com/Seeed-Studio/Seeed_Arduino_CAN)

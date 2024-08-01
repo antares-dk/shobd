@@ -1,18 +1,18 @@
 # shobd
 SimHub OBDII communication
 
-Objectif :
-Etablir une liaison entre SimHub et un HUD OBDII
+##Objectif :
+Réaliser un hud rapidement pour vos jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II).
 
-Pré-requis :
+##Pré-requis :
 
 - SimHub
 - Arduino Uno
 - Bouclier CAN Bus
 - Alimentation 12 Vdc.
-- HUD Dashboard ODBII.
+- <HUD Dashboard ODBII.
    
-Optionnel :
+##Optionnel :
 
 - Prise femelle OBD-II ()
 

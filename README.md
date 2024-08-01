@@ -2,7 +2,7 @@
 Sim Hub OBD-II communication, mon premier projet à base d'Arduino.
 
 ## Objectif :
-Réaliser un hud rapidement pour vos jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II).
+Réaliser un hud rapidement pour les jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II).
 
 ## Pré-requis :
 
@@ -37,7 +37,7 @@ Le code de l'application est divisé en plusieurs parties afin de séparer clair
 
 Comme c'est la première fois que je code, j'attire votre attention sur mon manque d'expérience et fait appel à votre indulgence. Si vous avez des remarques ou suggestion n'hésitez pas à mes les transmettre.
 
-Le croquis n'utilise que 10294 octets de l'espace de stockage, et les variables globales 527 octets soit respectivement 31% et 25% ce qui laisse de la place pour l'ajout de fonctionnalité comme :
+>Le croquis n'utilise que 10294 octets de l'espace de stockage, et les variables globales 527 octets soit respectivement 31% et 25% ce qui laisse de la place pour l'ajout de fonctionnalité comme :
 Affichage, Boite à bouton, etc...
 
 ### Explication rapide

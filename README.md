@@ -1,5 +1,5 @@
-# shobd
-Sim Hub OBD-II communication, mon premier projet à base d'Arduino.
+# Un Dashboard pour le Sim Racing à moins de 35 €
+SHOBD (SimHub OBD), mon premier projet à base d'Arduino.
 
 ## Objectif :
 Je souhaitais me fabriquer un dashboard pour le poser par dessus le boitier du volant Logitech G27, mais par manque de temps et de motivation, sélection des éléments, fabrication d'un boitier, etc... Je suis finalement tombé sur un Hud OBD-II vendu sur un site de commerce en ligne bien connu. [Aliexpress : HUD Display](https://fr.aliexpress.com/w/wholesale-hud-obd2-display.html?spm=a2g0o.home.auto_suggest.1.2eeb7065Oqmlwb).
@@ -7,17 +7,19 @@ Je souhaitais me fabriquer un dashboard pour le poser par dessus le boitier du v
 La solution simple rapide, plutôt facile à développer, le boitier est déjà fait, les pages du dashboard aussi...
 C'est de cette manière que j'ai réalisé un hud rapidement pour les jeux de course automobile, en établissant une liaison entre SimHub et un HUD [OBD II](#resources-externes). Ce qui me permet déjà de profiter d'un Hud dans mes Simu et de réfléchir un peu plus sur le prochain dashboard. Puis le HUD finira dans la voiture de Madame quand j'aurais mon Dashboard DIY.
 
+Le coût de ce Dashboard ODB-II est aux alentours de 30 €
+
 ## Pré-requis :
 
-- SimHub
-- Arduino Uno
-- Bouclier CAN Bus
-- Alimentation 12 Vdc.
-- HUD Dashboard ODB-II.
+- SimHub (Gratuit, ou license sur le principe d'un don volontaire)
+- Arduino Uno (3€)
+- Bouclier CAN Bus (3€)
+- Alimentation 12 Vdc. (en stock)
+- HUD Dashboard ODB-II. (25€)
    
 ## Optionnel :
 
-- Prise femelle OBD-II ()
+- Prise femelle OBD-II (2€)
 
 ## Configuratuin SimHub
 Pensez à activer le partage de données entre votre jeu et SimHub.

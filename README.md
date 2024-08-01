@@ -15,6 +15,7 @@ Ce qui me permet déjà de profiter d'un Hud dans mes Simu et de réfléchir un 
 Le coût de ce Dashboard ODB-II est aux alentours de 30 €
 
 ### Avantages
+   - Rapidité de mise en service (même avec l'apprentissage du C++/c et les recherches CAN-Bus, OBD-II), donc pour vous cela devrait être plus rapide...
    - Plusieurs thèmes et pages déjà toutes faites
    - Un boitier bien fini.
    - Reste compatible avec une vraie voiture
@@ -23,6 +24,7 @@ Le coût de ce Dashboard ODB-II est aux alentours de 30 €
    - Certaines variables OBD-II n'existe pas dans le jeu, l'animmation du Hud sera donc impossible ou simuler la valeur.
    - Certaones variables du jeux n'existe pas dans le HUD ODBII _(pas d'affichage de la vitesse enclenchée par exemple)_.
    - Impossible de créer de nouvelles pages dashboard.
+   - Faut que j'adapte mon code pour d'autre adruino, d'autre interface MCP2515...
      
 ## Pré-requis :
 

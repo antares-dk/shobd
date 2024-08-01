@@ -41,3 +41,5 @@ Le code de l'application est divisé en plusieurs parties afin de séparer clair
 
 ## Resources externes
 - [SimHub](https://www.simhubdash.com/)
+- [Wikipédia : OBD II](https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II)
+- [Wikipédia : OBD II Pid](https://en.wikipedia.org/wiki/OBD-II_PIDs)

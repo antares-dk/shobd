@@ -23,11 +23,11 @@ Le coût de ce Dashboard ODB-II est aux alentours de 30 €
      
 ## Pré-requis :
 
-- SimHub (Gratuit, ou license sur le principe d'un don volontaire)
-- Arduino Uno (3€)
-- Bouclier CAN Bus (3€)
-- Alimentation 12 Vdc. (en stock)
-- HUD Dashboard ODB-II. (25€)
+- SimHub (Gratuit, ou license sur le principe d'un don volontaire).
+- [Arduino Uno (3€)](https://fr.aliexpress.com/w/wholesale-arduinos-uno.html?spm=a2g0o.home.auto_suggest.2.2eeb7065GGchxI).
+- [Bouclier CAN Bus (3€)](https://fr.aliexpress.com/w/wholesale-bouclier-canbus.html?spm=a2g0o.productlist.search.0).
+- Alimentation 12 Vdc. (en stock, le hud consomme moins de 500 mA).
+- [HUD Dashboard ODB-II. (25€)]((https://fr.aliexpress.com/w/wholesale-hud-obd2-display.html?spm=a2g0o.home.auto_suggest.1.2eeb7065Oqmlwb).
    
 ## Optionnel :
 

@@ -36,7 +36,7 @@ Le code de l'application est divisé en plusieurs parties afin de séparer clair
 * obd2.cpp (et son fichier d'entête) : Gestion du CAN Bus et envoi des données vers le HUD au format OBD-II.
 
 ## Câblage
->[!IMPORTANT]
+>[!CAUTION]
 >Il est nécessaire de relier la masse de votre alimentation 12Vdc avec l'une des masse de l'Arduino.
 
 ## Resources externes

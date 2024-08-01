@@ -36,6 +36,8 @@ Le code de l'application est divisé en plusieurs parties afin de séparer clair
 * obd2.cpp (et son fichier d'entête) : Gestion du CAN Bus et envoi des données vers le HUD au format OBD-II.
 
 Comme c'est la première fois que je code, j'attire votre attention sur mon manque d'expérience et fait appel à votre indulgence. Si vous avez des remarques ou suggestion n'hésitez pas à mes les transmettre.
+Le croquis n'utilise que 10294 octets de l'espace de stockage, et les variables globales 527 octets soit respectivement 31% et 25% ce qui laisse de la place pour l'ajout de fonctionnalité comme :
+Affichage, Boite à bouton, etc...
 
 ### Explication rapide
 L'Arduino surveille l'arrivée de nouvelles données sur le port USB, lorsqu'une trame composée de deux chevrons un d'ouverture '<' et l'autre de fermeture '>' la trame est alors analysée afin d'en extraire les valeurs pour les stocker dans une table d'echange. Cette table d'echange est envoyée ensuite sous forme de trame ODB II via le CAN Bus.
